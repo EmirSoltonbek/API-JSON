@@ -20,12 +20,15 @@
 }
 .male{
     background-color: blue;
+    color: white;
 }
 .female{
     background-color: pink;
+    color: white;
 }
 .unknown{
     background-color: rgb(195, 132, 50);
+    color: white;
 }
 
 /* !========================================= */
