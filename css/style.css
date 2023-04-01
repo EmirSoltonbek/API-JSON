@@ -54,3 +54,7 @@ h2{
     font-size: 45px;
     color: rgb(195, 132, 50);
 }
+span{
+    padding: 5px;
+    border-radius: 3px;
+}

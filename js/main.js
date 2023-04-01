@@ -9,12 +9,12 @@ data
     console.log(info);
     info.results.forEach((elem) => {
       elem.gender == "Male"
-        ? (firstUl.innerHTML += `<li class='male'>
+        ? (firstUl.innerHTML += `<li>
       <img src="${elem.image}" alt="">
       <br>
       FullName:${elem.name}
       <br>
-      Gender:${elem.gender}
+      <span class='male' >Gender:${elem.gender}</span>
       <br>
       Species:${elem.species}
       <br>
@@ -22,24 +22,24 @@ data
       <br>
       Id:${elem.id}</li>`)
         : elem.gender == "Female"
-        ? (firstUl.innerHTML += `<li class='female'>
+        ? (firstUl.innerHTML += `<li>
       <img src="${elem.image}" alt="">
       <br>
       FullName:${elem.name}
       <br>
-      Gender:${elem.gender}
+      <span class='female' >Gender:${elem.gender}</span>
       <br>
       Species:${elem.species}
       <br>
       Status:${elem.status}
       <br>
       Id:${elem.id}</li>`)
-        : (firstUl.innerHTML += `<li class='unknown'>
+        : (firstUl.innerHTML += `<li>
         <img src="${elem.image}" alt="">
         <br>
         FullName:${elem.name}
         <br>
-        Gender:${elem.gender}
+        <span class='unknown' >Gender:${elem.gender}</span>
         <br>
         Species:${elem.species}
         <br>
@@ -81,12 +81,12 @@ dataInJson
   .then((info) => {
     info[0].forEach((elem) => {
       elem.gender == "Male"
-        ? (secondUl.innerHTML += `<li class='male'>
+        ? (secondUl.innerHTML += `<li>
       <img src="${elem.image}" alt="">
       <br>
       FullName:${elem.name}
       <br>
-      Gender:${elem.gender}
+      <span class='male' >Gender:${elem.gender}</span>
       <br>
       Species:${elem.species}
       <br>
@@ -94,24 +94,24 @@ dataInJson
       <br>
       Id:${elem.id}</li>`)
         : elem.gender == "Female"
-        ? (secondUl.innerHTML += `<li class='female'>
+        ? (secondUl.innerHTML += `<li>
       <img src="${elem.image}" alt="">
       <br>
       FullName:${elem.name}
       <br>
-      Gender:${elem.gender}
+      <span class='female' >Gender:${elem.gender}</span>
       <br>
       Species:${elem.species}
       <br>
       Status:${elem.status}
       <br>
       Id:${elem.id}</li>`)
-        : (secondUl.innerHTML += `<li class='unknown'>
+        : (secondUl.innerHTML += `<li>
         <img src="${elem.image}" alt="">
         <br>
         FullName:${elem.name}
         <br>
-        Gender:${elem.gender}
+        <span class='unknown' >Gender:${elem.gender}</span>
         <br>
         Species:${elem.species}
         <br>
