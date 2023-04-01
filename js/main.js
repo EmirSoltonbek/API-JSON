@@ -120,8 +120,3 @@ dataInJson
         Id:${elem.id}</li>`);
     });
   });
-
-// let di = document.getElementById("blu");
-// if (di.includes("female")) {
-//   di.style.backgroundColor = "pink";
-// }
