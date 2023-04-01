@@ -1,0 +1,56 @@
+
+.first-ul{
+    border: 2px solid rgb(195, 132, 50);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.first-list{
+    display: flex;
+}
+.first-ul li{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 2px solid rgb(195, 132, 50);
+    width: 30%;
+    text-align: center;
+    margin: 8px;
+}
+.male{
+    background-color: blue;
+}
+.female{
+    background-color: pink;
+}
+.unknown{
+    background-color: rgb(195, 132, 50);
+}
+
+/* !========================================= */
+
+.second-ul{
+    border: 2px solid rgb(195, 132, 50);
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.second-list{
+    display: flex;
+}
+.second-ul li{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 2px solid rgb(195, 132, 50);
+    width: 30%;
+    text-align: center;
+    margin: 8px;
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(195, 132, 50);
+}
